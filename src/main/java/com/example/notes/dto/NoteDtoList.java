@@ -3,10 +3,12 @@ package com.example.notes.dto;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 @AllArgsConstructor
-public class NoteDto {
+public class NoteDtoList {
 
-    private String content;
+    List<NoteDto> noteDtoList;
 
 }

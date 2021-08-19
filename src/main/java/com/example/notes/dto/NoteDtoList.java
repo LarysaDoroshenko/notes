@@ -9,6 +9,6 @@ import java.util.List;
 @AllArgsConstructor
 public class NoteDtoList {
 
-    List<NoteDto> noteDtoList;
+    List<NoteDto> noteDtos;
 
 }

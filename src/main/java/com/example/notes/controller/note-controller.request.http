@@ -1,2 +1,12 @@
 GET http://localhost:{{port}}/note/list
+
+###
+
+POST http://localhost:{{port}}/note/create
+Content-Type: application/json
+
+{
+  "content": "New note!"
+}
+
 ###

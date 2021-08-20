@@ -1,1 +1,2 @@
-GET http://localhost:8080/note/list
+GET http://localhost:{{port}}/note/list
+###

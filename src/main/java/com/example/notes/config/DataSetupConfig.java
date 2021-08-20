@@ -3,6 +3,7 @@ package com.example.notes.config;
 import com.example.notes.entity.NoteEntity;
 import com.example.notes.repository.NoteRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -11,6 +12,7 @@ import java.sql.Timestamp;
 import java.time.LocalDateTime;
 import java.util.UUID;
 
+@Profile("local")
 @Component
 @RequiredArgsConstructor
 public class DataSetupConfig {
